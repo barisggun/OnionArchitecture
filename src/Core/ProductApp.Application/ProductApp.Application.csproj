@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Mapping\" />
-    <Folder Include="Wrappers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductApp.Domain\ProductApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>
